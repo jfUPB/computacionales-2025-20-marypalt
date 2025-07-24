@@ -1,12 +1,12 @@
 # Unidad 1 ✅ Rúbrica
 
+# Nota de la unidad: set-seek * 0.4 + apply * 0.6 = 
+
 # Fase set seek
 
-## **Puntuación Final:** `[  ]` / 30
+## **Puntuación Final:** `[  ]` / 10
 
 ## Rúbrica de Evaluación: Arquitectura y Programación del Computador Hack
-
-**Objetivo:** Evaluar la comprensión de la arquitectura de un computador digital y la capacidad de programarlo en lenguaje ensamblador a través de la experimentación y el registro en una bitácora de aprendizaje.
 
 ### **Escala de Desempeño (basada en evidencia verificable)**
 
@@ -55,6 +55,13 @@ Evalúa la respuesta a estas preguntas y solicitudes: `Reporte del proceso de pr
 
 ***
 
+# Fase apply
+
+## **Puntuación Final:** `[  ]` / 10
+
+## Rúbrica de Evaluación: Arquitectura y Programación del Computador Hack
+
+
 ### 3. Implementación de Control de Flujo con Saltos Condicionales (Actividad 03)
 
 Evalúa la respuesta a estas preguntas y solicitudes: `Escribir un programa que compara un valor en memoria con 10 y almacena 0 o 1 en otra dirección de memoria según el resultado. Reportar la simulación paso a paso (predecir, ejecutar, observar, reflexionar).`
@@ -83,40 +90,6 @@ Evalúa la respuesta a estas preguntas y solicitudes: `Crear un programa que use
 | **3** | **Suficiente:** Se presenta un programa que intenta implementar un ciclo, pero este es incorrecto (p. ej., ciclo infinito, la lógica de suma es errónea, o no almacena el resultado final correctamente). El reporte de simulación es superficial o no se presenta. |
 | **2** | **En Desarrollo:** El código presentado no constituye un ciclo funcional. Puede contener instrucciones de salto, pero no están organizadas para crear una iteración controlada. |
 | **1** | **Inicial:** Se presenta un código que no tiene relación con la implementación de un ciclo o una suma. |
-| **0** | **No Realizado:** No se presenta evidencia de la actividad en la bitácora. |
-
-**Calificación Obtenida:** `[  ]` / 5
-
-***
-
-### 5. Interacción con Memoria de Video: Dibujar un Punto (Actividad 05)
-
-Evalúa la respuesta a estas preguntas y solicitudes: `Escribir un programa que dibuje un punto negro en la esquina superior izquierda de la pantalla. Reportar la simulación paso a paso.`
-
-| Nivel | Descripción del Desempeño |
-| :---: | :--- |
-| **5** | **Completo y Preciso:** La bitácora presenta un programa que calcula la dirección de memoria correcta para el pixel y le asigna el valor necesario para encenderlo. El resultado es un único punto en la esquina superior izquierda. Incluye un reporte del proceso de simulación. |
-| **4** | **Logrado:** El programa es funcionalmente correcto, pero se omite el reporte de la simulación. O bien, el reporte está presente, pero el programa tiene un error menor (p. ej., dibuja el punto en una ubicación ligeramente incorrecta pero cercana). |
-| **3** | **Suficiente:** El programa intenta acceder a la memoria de video, pero lo hace de forma incorrecta (p. ej., usa una dirección base errónea o no logra establecer el valor del pixel). El reporte de simulación es superficial o no se presenta. |
-| **2** | **En Desarrollo:** El código no demuestra una comprensión de cómo direccionar la memoria de video (SCREEN) o cómo manipular bits individuales dentro de un registro de memoria. |
-| **1** | **Inicial:** Se presenta un código que no tiene relación con el acceso a la memoria de video. |
-| **0** | **No Realizado:** No se presenta evidencia de la actividad en la bitácora. |
-
-**Calificación Obtenida:** `[  ]` / 5
-
-***
-
-### 6. Manipulación de Múltiples Píxeles: Dibujar una Línea (Actividad 06)
-
-Evalúa la respuesta a estas preguntas y solicitudes: `Modificar el programa anterior para dibujar una línea horizontal de 16 píxeles en la esquina superior izquierda. Reportar la simulación paso a paso.`
-
-| Nivel | Descripción del Desempeño |
-| :---: | :--- |
-| **5** | **Completo y Preciso:** La bitácora presenta un programa que direcciona correctamente el primer `word` de la memoria de pantalla y le asigna el valor que representa una línea horizontal de 16 píxeles (todos los bits a 1). Incluye un reporte del proceso de simulación. |
-| **4** | **Logrado:** El programa es funcionalmente correcto, pero se omite el reporte de la simulación. O bien, el reporte está presente, pero el programa tiene un error menor (p. ej., dibuja una línea pero en una fila incorrecta, o con un pixel apagado). |
-| **3** | **Suficiente:** El programa no asigna el valor correcto para crear una línea completa de 16 píxeles (p. ej., solo dibuja un punto o asigna un valor numérico incorrecto). El reporte de simulación es superficial o no se presenta. |
-| **2** | **En Desarrollo:** El código es una modificación incorrecta del ejercicio anterior que no logra el objetivo de dibujar una línea. No demuestra comprensión de que un `word` de memoria corresponde a 16 píxeles. |
-| **1** | **Inicial:** Se presenta el mismo código del ejercicio anterior sin ninguna modificación. |
 | **0** | **No Realizado:** No se presenta evidencia de la actividad en la bitácora. |
 
 **Calificación Obtenida:** `[  ]` / 5
